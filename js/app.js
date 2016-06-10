@@ -34,3 +34,8 @@ $(document).foundation()
 				});
 			});
 		})(window);
+
+
+// scrolling effect
+
+
