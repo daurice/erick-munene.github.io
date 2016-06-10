@@ -17,3 +17,29 @@
     z-index: 100;
     border-top: 0;
 }
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+#about{
+    text-align: center;
+/*    background-color: rgba(89, 250, 40, 0.28);*/
+    background: url(../img/2.jpg) no-repeat center fixed;
+        
+    padding: 2%;
+}
+
+.overlay{
+  background:rgba(0,0,0,.75);
+               text-align:center;
+/*               padding:45px 0 66px 0;*/
+               opacity:1;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}  
+    
+} 
