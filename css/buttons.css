@@ -1,7 +1,7 @@
 /* Box colors */
 .bg-1 {
 	
-	color: #37474f;
+	color: transparent;
 }
 .bg-2 {
 	
@@ -15,8 +15,9 @@
 /* Common button styles */
 .button {
 	float: left;
-	min-width: 150px;
-	max-width: 250px;
+	min-width: 20em;
+	max-width: 25em;
+    
 	display: block;
 	margin: 1em;
 	padding: 1em 2em;
@@ -38,8 +39,8 @@
 
 /* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
 .bg-1 .button {
-	color: #37474f;
-	border-color: #37474f;
+	color:transparent;
+/*	border-color: #37474f;*/
 }
 .bg-2 .button {
 	color: #ECEFF1;
@@ -52,7 +53,7 @@
 
 /* Sizes */
 .button--size-s {
-	font-size: 14px;
+	font-size: 15px;
 }
 .button--size-m {
 	font-size: 16px;
@@ -694,7 +695,9 @@
 /* Wapasha */
 .button.button--wapasha {
 	border-radius: 0.5em;
-	background: #37474f;
+    border: 0.1em solid #26FF81; 
+   font-size: 1em;
+	background:transparent;
 	color: #fff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
@@ -710,7 +713,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 2px solid #3f51b5;
+	border: 2px solid #26FF81;
 	z-index: -1;
 	border-radius: inherit;
 	opacity: 0;
@@ -725,7 +728,7 @@
 	border-color: #7986cb;
 }
 .button--wapasha:hover {
-	background-color: #ffffff;
+	background:solid #ffffff;
 	color: #3f51b5;
 }
 .button--wapasha.button--inverted:hover {

@@ -8,6 +8,10 @@
     
 }
 
+.button--wapasha:hover {
+	background:transparent;
+	color: #26FF81;
+}
 
 .sticky {
     position: fixed;
@@ -26,7 +30,7 @@ p{
     font-size: 1.5em;
 }
 
-#about{
+#box2{
     text-align: center;
 /*    background-color: rgba(89, 250, 40, 0.28);*/
     background: url(../img/2.jpg) no-repeat center fixed;
@@ -34,12 +38,34 @@ p{
     padding: 2%;
 }
 
+/*
 .overlay{
   background:rgba(0,0,0,.75);
                text-align:center;
-/*               padding:45px 0 66px 0;*/
+               padding:45px 0 66px 0;
                opacity:1;
                -webkit-transition: opacity .25s ease;
 -moz-transition: opacity .25s ease;}  
     
 } 
+*/
+
+
+
+#overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:1;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+#box2:hover #overlay {
+               opacity:1;}
+
+#box1:hover #overlay {
+               opacity:1;}
+
+#plus       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:1.2em;}
