@@ -21,6 +21,19 @@
     <link rel="stylesheet" type="text/css" href="css/navcss/component.css" />
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/jquery.tiltedpage-scroll.js"></script>
+  <link href='css/tiltedpage-scroll.css' rel='stylesheet' type='text/css'>
+    
+    <script>
+	  $(document).ready(function(){
+      $(".row").tiltedpage_scroll({
+        angle: 50
+      });
+		});
+		
+	  </script>
 </head>
 
 <body>
@@ -101,23 +114,47 @@ level. My career as a UX Designer, my portfolio, my personal<br>
         
         <h2>Why I love design</h2>
 
-Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.
+        <p>Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.</p>
         
         </div>
         <div class="small-4 centered columns">
             <h2>Why I love coffee</h2>
 
-When I sip coffee, I ponder the delicate process it took to get from a bean to my cup. From the growing, harvesting, processing, roasting, and brewing, it's truly miraculous.
+            <p>When I sip coffee, I ponder the delicate process it took to get from a bean to my cup. From the growing, harvesting, processing, roasting, and brewing, it's truly miraculous.</p>
         
         </div>
         <div class="small-4 centered columns">
             <h2>San Diego is my life</h2>
 
-My culture and personality have been greatly influenced by the warm currents of the Pacific Ocean. My biggest inspirations happen on San Diego's beautiful waterfront.
+            <p>My culture and personality have been greatly influenced by the warm currents of the Pacific Ocean. My biggest inspirations happen on San Diego's beautiful waterfront.</p>
         
         </div>
     </div>
+<div class="row expanded" >
+<!--
+        <div class="small-4 columns">
+        <div id="box1">
+  
+  <div id="overlay">
+    <span id="plus">+</span>
+  </div>
+  
+</div>
+        
+        </div>
+-->
+        <div class="small-12 centered column" id="box2">
+            <div id="overlay">
+            <span id="plus"><h2>Am so happy you're visiting</h2>
+<p>I designed this site so you can get to know me on a personal<br> 
+level. My career as a UX Designer, my portfolio, my personal<br> 
+    photography, my blog, my favorite quotes, and so much more.<br> So please sit back and enjoy!</p></span>
+            
+            </div>
 
+        </div>
+
+    </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
