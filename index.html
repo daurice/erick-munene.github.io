@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erick Munene</title>
 
-
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/startcss/reset.css">
     <!-- CSS reset -->
     <link rel="stylesheet" href="css/startcss/style.css">
@@ -22,18 +22,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="js/jquery.tiltedpage-scroll.js"></script>
-  <link href='css/tiltedpage-scroll.css' rel='stylesheet' type='text/css'>
-    
-    <script>
-	  $(document).ready(function(){
-      $(".row").tiltedpage_scroll({
-        angle: 50
-      });
-		});
-		
-	  </script>
+
 </head>
 
 <body>
@@ -83,7 +72,7 @@
 
     </div>
 
-    <div class="row expanded" >
+    <div class="row expanded wrapper" >
 <!--
         <div class="small-4 columns">
         <div id="box1">
@@ -109,24 +98,26 @@ level. My career as a UX Designer, my portfolio, my personal<br>
 
     </div>
     
-    <div class="row expanded">
+    <div class="row expanded" id="aboutsection">
     <div class="small-4 centered columns">
-        
+        <i class="fa fa-code" aria-hidden="true"></i>
         <h2>Why I love design</h2>
 
         <p>Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.</p>
         
         </div>
         <div class="small-4 centered columns">
+            <i class="fa fa-coffee" aria-hidden="true"></i>
             <h2>Why I love coffee</h2>
 
             <p>When I sip coffee, I ponder the delicate process it took to get from a bean to my cup. From the growing, harvesting, processing, roasting, and brewing, it's truly miraculous.</p>
         
         </div>
         <div class="small-4 centered columns">
-            <h2>San Diego is my life</h2>
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+            <h2>Music is my life</h2>
 
-            <p>My culture and personality have been greatly influenced by the warm currents of the Pacific Ocean. My biggest inspirations happen on San Diego's beautiful waterfront.</p>
+            <p>My culture and personality have been greatly influenced by music i sing that is, with various bands.</p>
         
         </div>
     </div>
@@ -225,6 +216,18 @@ level. My career as a UX Designer, my portfolio, my personal<br>
             });
         });
     </script>
+    
+    <script>
+	  $(".row").tiltedpage_scroll({
+    sectionContainer: "#div",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity:1,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+		
+	  </script>
+    
 </body>
 
 </html>

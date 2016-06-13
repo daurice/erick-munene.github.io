@@ -16,7 +16,7 @@
 !function($){
   
   var defaults = {
-    sectionContainer: "> .row",
+    sectionContainer: "> div",
     angle: 50,
     opacity: true,
     scale: true,
@@ -28,11 +28,11 @@
     var settings = $.extend({}, defaults, options),
         el = $(this);
         
-    el.find(settings.sectionContainer).addClass("tps-row");
+    el.find(settings.sectionContainer).addClass("tps-section");
     
-    el.find('.tps-row').each(function(){
+    el.find('.tps-section').each(function(){
       var el2 = $(this); 
-      el2.wrapInner("<div class='tps-row'></div>");
+      el2.wrapInner("<div class='tps-wrapper'></div>");
     });
     
     function isElementInViewport (el3) {

@@ -69,3 +69,12 @@ p{
                font-weight:900;
                color:rgba(255,255,255,.85);
                font-size:1.2em;}
+
+
+
+
+#aboutsection{
+    
+    background-image: url(/img/blurred-background-1.jpg);
+    background: cover;
+}
