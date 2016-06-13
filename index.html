@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erick Munene</title>
-
+<link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/startcss/reset.css">
     <!-- CSS reset -->
@@ -102,11 +102,12 @@ level. My career as a UX Designer, my portfolio, my personal<br>
 
     <div class="row expanded" id="aboutsection">
         <div class="small-4 centered columns">
-            <i class="fa fa-code" aria-hidden="true"></i>
+             <i class="fa fa-code" aria-hidden="true"></i>
+            
             <h2>Why I love design</h2>
-
-            <p>Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.</p>
-
+<p class="animated slideOutDown">
+            Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.</p>
+            
         </div>
         <div class="small-4 centered columns">
             <i class="fa fa-coffee" aria-hidden="true"></i>
@@ -212,29 +213,7 @@ level. My career as a UX Designer, my portfolio, my personal<br>
         });
     </script>
     
-<!--
-<script>
-         // This is a functions that scrolls to #{blah}link
-function goToByScroll(id){
-      // Remove "link" from the ID
-    id = id.replace("", "");
-      // Scroll
-    $('html,body').animate({
-        scrollTop: $("#"+id).offset().top},
-        'slow');
-}
 
-$("#sidebar > ul > li > a").click(function(e) { 
-      // Prevent a page reload when a link is pressed
-    e.preventDefault(); 
-      // Call the scroll function
-    goToByScroll(this.id);           
-});
-
-        
-        </script>
-        
--->
         <script>
         $(function() {
             $('a[href*="#"]:not([href="#"])').click(function() {
