@@ -18,6 +18,11 @@
 <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/buttons.css" />
     <!-- button styles -->
+    
+    <link rel="stylesheet" href="scroll-effects/3rdparty/simplegrid/simplegrid.css"> <!--scrolling effects-->
+        <link rel="stylesheet" href="scroll-effects/3rdparty/font-awesome/css/font-awesome.min.css">
+        <script type="text/javascript" src="scroll-effects/3rdparty/jquery/jquery.min.js"></script><!--scrolling effects-->
+    
     <link rel="stylesheet" type="text/css" href="css/navcss/component.css" />
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
@@ -122,24 +127,10 @@ level. My career as a UX Designer, my portfolio, my personal<br>
         </div>
     </div>
 <div class="row expanded" >
-<!--
-        <div class="small-4 columns">
-        <div id="box1">
-  
-  <div id="overlay">
-    <span id="plus">+</span>
-  </div>
-  
-</div>
-        
-        </div>
--->
-        <div class="small-12 centered column" id="box2">
+
+        <div class="small-up-1 mid-up-2 large-up-3 centered column" id="box2">
             <div id="overlay">
-            <span id="plus"><h2>Am so happy you're visiting</h2>
-<p>I designed this site so you can get to know me on a personal<br> 
-level. My career as a UX Designer, my portfolio, my personal<br> 
-    photography, my blog, my favorite quotes, and so much more.<br> So please sit back and enjoy!</p></span>
+            <span id="plus">
             
             </div>
 
@@ -157,7 +148,10 @@ level. My career as a UX Designer, my portfolio, my personal<br>
     <!-- Resource jQuery -->
     <script src="js/navjs/classie.js"></script>
     <script src="js/navjs/clipboard.min.js"></script>
-
+    
+    
+<script src="scroll-effects/js/animate_on_scroll.js"></script><!--scroll js-->
+    
     <script>
         (function() {
             [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
@@ -217,16 +211,7 @@ level. My career as a UX Designer, my portfolio, my personal<br>
         });
     </script>
     
-    <script>
-	  $(".row").tiltedpage_scroll({
-    sectionContainer: "#div",     // In case you don't want to use <section> tag, you can define your won CSS selector here
-    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
-    opacity:1,                     // You can toggle the opacity effect with this option. The default value is true
-    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
-    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
-  });
-		
-	  </script>
+
     
 </body>
 
