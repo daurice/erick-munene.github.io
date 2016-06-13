@@ -7,26 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erick Munene</title>
 
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/startcss/reset.css">
     <!-- CSS reset -->
     <link rel="stylesheet" href="css/startcss/style.css">
     <!-- Resource style -->
     <script src="js/modernizr.js"></script>
     <!-- button styles -->
-<link rel="stylesheet" type="text/css" href="css/buttonbase.css" />
-<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/buttonbase.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/buttons.css" />
     <!-- button styles -->
-    
-    <link rel="stylesheet" href="scroll-effects/3rdparty/simplegrid/simplegrid.css"> <!--scrolling effects-->
-        <link rel="stylesheet" href="scroll-effects/3rdparty/font-awesome/css/font-awesome.min.css">
-        <script type="text/javascript" src="scroll-effects/3rdparty/jquery/jquery.min.js"></script><!--scrolling effects-->
-    
+
+
     <link rel="stylesheet" type="text/css" href="css/navcss/component.css" />
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    
+
 
 </head>
 
@@ -50,7 +47,7 @@
                 <!-- <h2>Erick</h2> -->
                 <div class="box bg-1">
                     <button class="button button--wapasha button--round-s">Get to Know Me</button>
-                    
+
                 </div>
             </section>
         </div>
@@ -66,7 +63,7 @@
             <span class="link-copy"></span>
             <nav class="menu menu--valentine">
                 <ul class="menu__list">
-                    <li class="menu__item menu__item--current"><a href="#" class="menu__link">Welcome</a></li>
+                    <li class="menu__item menu__item--current"><a href="#box2" class="menu__link">Welcome</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">About</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Solutions</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
@@ -77,8 +74,8 @@
 
     </div>
 
-    <div class="row expanded wrapper" >
-<!--
+    <div class="row expanded wrapper">
+        <!--
         <div class="small-4 columns">
         <div id="box1">
   
@@ -92,45 +89,45 @@
 -->
         <div class="small-12 centered column" id="box2">
             <div id="overlay">
-            <span id="plus"><h2>Am so happy you're visiting</h2>
+                <span id="plus"><h2>Am so happy you're visiting</h2>
 <p>I designed this site so you can get to know me on a personal<br> 
 level. My career as a UX Designer, my portfolio, my personal<br> 
     photography, my blog, my favorite quotes, and so much more.<br> So please sit back and enjoy!</p></span>
-            
+
             </div>
 
         </div>
 
     </div>
-    
-    <div class="row expanded" id="aboutsection">
-    <div class="small-4 centered columns">
-        <i class="fa fa-code" aria-hidden="true"></i>
-        <h2>Why I love design</h2>
 
-        <p>Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.</p>
-        
+    <div class="row expanded" id="aboutsection">
+        <div class="small-4 centered columns">
+            <i class="fa fa-code" aria-hidden="true"></i>
+            <h2>Why I love design</h2>
+
+            <p>Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.</p>
+
         </div>
         <div class="small-4 centered columns">
             <i class="fa fa-coffee" aria-hidden="true"></i>
             <h2>Why I love coffee</h2>
 
             <p>When I sip coffee, I ponder the delicate process it took to get from a bean to my cup. From the growing, harvesting, processing, roasting, and brewing, it's truly miraculous.</p>
-        
+
         </div>
         <div class="small-4 centered columns">
             <i class="fa fa-microphone" aria-hidden="true"></i>
             <h2>Music is my life</h2>
 
             <p>My culture and personality have been greatly influenced by music i sing that is, with various bands.</p>
-        
+
         </div>
     </div>
-<div class="row expanded" >
+    <div class="row expanded">
 
         <div class="small-up-1 mid-up-2 large-up-3 centered column" id="box2">
             <div id="overlay">
-            <span id="plus">
+                <span id="plus">
             
             </div>
 
@@ -150,17 +147,13 @@ level. My career as a UX Designer, my portfolio, my personal<br>
     <script src="js/navjs/clipboard.min.js"></script>
     
     
-<script src="scroll-effects/js/animate_on_scroll.js"></script><!--scroll js-->
-    
-    <script>
+<script>
         (function() {
             [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
                 var menuItems = menu.querySelectorAll('.menu__link'),
                     setCurrent = function(ev) {
-                        ev.preventDefault();
-
+                        //                        ev.preventDefault();
                         var item = ev.target.parentNode; // li
-
                         // return if already current
                         if (classie.has(item, 'menu__item--current')) {
                             return false;
@@ -170,12 +163,10 @@ level. My career as a UX Designer, my portfolio, my personal<br>
                         // set current
                         classie.add(item, 'menu__item--current');
                     };
-
                 [].slice.call(menuItems).forEach(function(el) {
                     el.addEventListener('click', setCurrent);
                 });
             });
-
             [].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
                 link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
                 new Clipboard(link);
@@ -188,6 +179,10 @@ level. My career as a UX Designer, my portfolio, my personal<br>
             });
         })(window);
     </script>
+    
+    <script>
+    
+   
 
     <script>
         $(document).ready(function() {
@@ -211,7 +206,47 @@ level. My career as a UX Designer, my portfolio, my personal<br>
         });
     </script>
     
+<script>
+         // This is a functions that scrolls to #{blah}link
+function goToByScroll(id){
+      // Remove "link" from the ID
+    id = id.replace("", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("#"+id).offset().top},
+        'slow');
+}
 
+$("#sidebar > ul > li > a").click(function(e) { 
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll(this.id);           
+});
+
+        
+        </script>
+        
+        <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+            $('#galleryModal').on('show.bs.modal', function(e) {
+                $('#galleryImage').attr("src", $(e.relatedTarget).data("src"));
+            })
+        })(jQuery);
+    </script>
+        
     
 </body>
 
