@@ -8,6 +8,10 @@
     
 }
 
+.button--wapasha a{
+    color: #26FF81;
+}
+
 .button--wapasha:hover {
 	background:transparent;
 	color: #26FF81;
