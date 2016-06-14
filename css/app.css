@@ -79,6 +79,25 @@ p{
 
 #aboutsection{
     
-    background-image: url(/img/blurred-background-1.jpg);
-    background: cover;
+/*    background-color:rgba(38, 255, 129, 0.36);*/
+    background:url(../img/back.jpg);
+    background-size: cover;
+}
+
+#aboutsection i{
+    font-size: 7em;
+    text-align: center;
+    padding: 20%;
+   
+    color: black;
+}
+
+#aboutsection h2{
+    
+    font-size: 2.2em;
+}
+
+#aboutsection p{
+    
+    font-size: 1.2em;
 }
