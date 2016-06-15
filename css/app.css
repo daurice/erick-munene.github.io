@@ -378,9 +378,27 @@ width: 100%;
     text-align: center;
 }
     
+    
+    /* ===============================
+           footer section
+==================================*/
+    #footer{
+        
+        background:url(../img/3.jpg) no-repeat fixed; 
+        
+    }  
+    
     #social{
         
         padding: 0;
         margin: 0 auto;
-    }    
+    }   
+    
+     #social i{
+        
+        font-size: 3em;
+         padding: 2%;
+        margin: 0 auto;
+         display:block;
+    } 
  
