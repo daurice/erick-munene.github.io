@@ -8,8 +8,53 @@
     
 }
 
+/*styling open close button*/
+.button-nav {
+	display:inline;
+	position:absolute;
+	right:50px;
+	top:6px;
+	z-index:999;
+	font-size:30px;
+    
+    @media only screen and (min-width: 40.063em) { 
+ }
+}
+
+
+
+.button-nav a {
+	text-decoration:none;
+}
+.btn-open:after {
+	color:#333;
+	content:"\f0c9";
+	font-family:"FontAwesome";
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+.btn-open:hover:after {
+	color:#34B484;
+}
+.btn-close:after {
+	color:#fff;
+	content:"\f00d";
+	font-family:"FontAwesome";
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+.btn-close:hover:after {
+	color: #34B484;
+}
+
 #nav{
     background-color: black;
+    width:100%;
+    display: block;
 }
 
 .no-js .menu {
@@ -233,6 +278,103 @@ span {
   }
 */
 
+/* ===============================
+           contact section
+==================================*/
 
 
+#contact-form h2{
+    color:ghostwhite;
+    
+}
+#contact, label, input[name="submit"] {
+/*position: relative;*/
+}
 
+label > span, input, textarea, button {
+box-sizing: border-box;
+}
+label {
+display: block;
+}
+label > span {
+display: none;
+}
+
+input, textarea, button {
+width: 100%;
+padding: 0.5em;
+border: none;
+font: 300 100%/1.2 Ubuntu, sans-serif;
+}
+input[type="text"], input[type="email"], textarea {
+margin: 0 0 1em;
+border: 1px solid black;
+outline: none;
+ border-radius: 1em;
+}
+
+input.invalid, textarea.invalid {
+border-color:#0BAA4E;
+}
+textarea {
+height: 6em;
+    
+}
+input[type="submit"], button {
+    width: 20%;
+background: black;
+color: #ffffff;
+    border-radius: 2em;
+}
+
+input[type="submit"]:hover, button:hover {
+background-color:#0BAA4E;
+}
+@media screen and (min-width: 30em) {
+#contact-form h2 {
+margin-left: 26.3736%;
+font-size: 2em;
+line-height: 1.5;
+}
+label > span {
+vertical-align: top;
+display: inline-block;
+width: 56.3736%;
+padding: 0.5em;
+border: 1px solid transparent;
+text-align: left;
+ color: black;
+    font-size: 1.2em;
+}
+    
+    input, textarea, button {
+width: 100%;
+line-height: 1.5;
+}
+
+textarea {
+height: 15em;
+    border-radius: 1em;
+}
+input[type="submit"], button {
+margin-left: 26.3736%;
+}
+}
+@media screen and (min-width: 48em) {
+#contact-form {
+text-align: justify;
+line-height: 0;
+}
+#contact-form:after {
+content: '';
+display: inline-block;
+width: 100%;
+}
+#contact-form h2 {
+/*margin-left: 17.2661%;*/
+    text-align: center;
+}
+    
+    
+ 
