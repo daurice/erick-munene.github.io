@@ -281,7 +281,9 @@ span {
 /* ===============================
            contact section
 ==================================*/
-
+#contactsection{
+    margin-top: 3%;
+}
 
 #contact-form h2{
     color:ghostwhite;
@@ -358,7 +360,7 @@ height: 15em;
     border-radius: 1em;
 }
 input[type="submit"], button {
-margin-left: 26.3736%;
+margin-left:40% ;
 }
 }
 @media screen and (min-width: 48em) {
@@ -376,5 +378,9 @@ width: 100%;
     text-align: center;
 }
     
-    
+    #social{
+        
+        padding: 0;
+        margin: 0 auto;
+    }    
  
