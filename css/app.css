@@ -8,6 +8,8 @@
     
 }
 
+
+
 .button--wapasha a{
     color: #26FF81;
 }
@@ -80,7 +82,7 @@ p{
 #aboutsection{
     
 /*    background-color:rgba(38, 255, 129, 0.36);*/
-    background:url(../img/back.jpg);
+    background:#0BAA4E;
     background-size: cover;
 }
 
@@ -88,16 +90,22 @@ p{
     font-size: 7em;
     text-align: center;
     padding: 20%;
-   
-    color: black;
+    padding-left: 1.5em;
+/*   margin-left: 20em auto;*/
+    color:ghostwhite;
 }
 
 #aboutsection h2{
     
     font-size: 2.2em;
+    font-weight: 500;
+     color:ghostwhite;
+    text-align: center;
 }
 
 #aboutsection p{
-    
-    font-size: 1.2em;
+    padding: 1%;
+    font-size: 1.1em;
+     color:ghostwhite;
+    text-align: center;
 }
