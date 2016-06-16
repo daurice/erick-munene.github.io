@@ -1,3 +1,8 @@
+html{
+    background-color: whitesmoke;
+}
+
+
 #intro{
 
 background: url(../img/2.jpg) no-repeat center center fixed;
@@ -188,11 +193,13 @@ text-align: left;
 
 
 
-/*  ==========================
- portfolio section
+/*  ==================================
+            portfolio section
 =====================================*/
 #portfoliosection{
 margin-top: 10%;
+margin-left: 2%;
+margin-right: 2%;
 }
 #port, port::before, port::after,
 img,
