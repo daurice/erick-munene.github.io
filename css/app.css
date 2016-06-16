@@ -139,7 +139,7 @@ background:rgba(0,0,0,.75);
 
 
 
-#overlay    {  background:rgba(0,0,0,.75);
+#overlay{  background:rgba(0,0,0,.75);
        text-align:center;
        padding:45px 0 66px 0;
        opacity:1;
@@ -212,7 +212,13 @@ transition: all 0.2s;
 height: auto;
 width: 100%;
 display: block;
+filter: grayscale(100%);
+ -webkit-filter: grayscale(100%);
+	
+    
 }
+
+    
 
 #port {
 /*  width: 33%;*/
@@ -226,6 +232,8 @@ padding: 0;
 #port:hover img {
 -webkit-transform: scale(1.25);
   transform: scale(1.25);
+    -webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 #port:hover span {
 opacity: 1;
@@ -353,7 +361,7 @@ width: 56.3736%;
 padding: 0.5em;
 border: 1px solid transparent;
 text-align: left;
-color: black;
+color:#0BAA4E;
 font-size: 1.2em;
 }
 
@@ -418,3 +426,18 @@ display: inline;
 color:#0BAA4E;
 
 }
+    
+/*
+#overlay2{
+        
+
+background-color:rgba(0,0,0,.75);
+text-align:center;
+padding:45px 0 66px 0;
+opacity:0;
+-webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;
+    
+    }    
+
+    */
