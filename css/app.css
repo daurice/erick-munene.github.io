@@ -1,5 +1,5 @@
 html{
-    background-color: whitesmoke;
+background-color: whitesmoke;
 }
 
 
@@ -8,6 +8,7 @@ html{
 background: url(../img/2.jpg) no-repeat center center fixed;
 background-size: cover;
 max-height: 2000px;
+height: 90%;
 color: azure;
 
 
@@ -128,10 +129,10 @@ padding: 1%;
 /*
 .overlay{
 background:rgba(0,0,0,.75);
-       text-align:center;
-       padding:45px 0 66px 0;
-       opacity:1;
-       -webkit-transition: opacity .25s ease;
+text-align:center;
+padding:45px 0 66px 0;
+opacity:1;
+-webkit-transition: opacity .25s ease;
 -moz-transition: opacity .25s ease;}  
 
 } 
@@ -139,23 +140,26 @@ background:rgba(0,0,0,.75);
 
 
 
-#overlay{  background:rgba(0,0,0,.75);
-       text-align:center;
-       padding:45px 0 66px 0;
-       opacity:1;
-       -webkit-transition: opacity .25s ease;
+#overlay{  
+background:rgba(0,0,0,.75);
+text-align:center;
+    height: 100%;
+    width: 100%;
+padding:45px 0 66px 0;
+opacity:1;
+-webkit-transition: opacity .25s ease;
 -moz-transition: opacity .25s ease;}
 
 #box2:hover #overlay {
-       opacity:1;}
+opacity:1;}
 
 #box1:hover #overlay {
-       opacity:1;}
+opacity:1;}
 
 #plus       {  font-family:Helvetica;
-       font-weight:900;
-       color:rgba(255,255,255,.85);
-       font-size:1.2em;}
+font-weight:900;
+color:rgba(255,255,255,.85);
+font-size:1.2em;}
 
 
 
@@ -165,11 +169,13 @@ background:rgba(0,0,0,.75);
 /*    background-color:rgba(38, 255, 129, 0.36);*/
 background:#0BAA4E;
 background-size: cover;
+margin: 0 auto;
+padding: 0 auto;
+
 }
 
 #aboutsection2 i{
 font-size: 4em;
-
 padding: 10%;
 /*   margin-left: 20em auto;*/
 color:ghostwhite;
@@ -194,7 +200,7 @@ text-align: left;
 
 
 /*  ==================================
-            portfolio section
+portfolio section
 =====================================*/
 #portfoliosection{
 margin-top: 10%;
@@ -213,12 +219,12 @@ height: auto;
 width: 100%;
 display: block;
 filter: grayscale(100%);
- -webkit-filter: grayscale(100%);
-	
-    
+-webkit-filter: grayscale(100%);
+
+
 }
 
-    
+
 
 #port {
 /*  width: 33%;*/
@@ -231,9 +237,10 @@ padding: 0;
 }
 #port:hover img {
 -webkit-transform: scale(1.25);
-  transform: scale(1.25);
-    -webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
+transform: scale(1.25);
+-webkit-filter: grayscale(0%);
+filter: grayscale(0%);
+
 }
 #port:hover span {
 opacity: 1;
@@ -249,22 +256,22 @@ z-index: 1;
 }
 #port:hover::before {
 -webkit-backdrop-filter: blur(10px) saturate(120%);
-  backdrop-filter: blur(10px) saturate(120%);
+backdrop-filter: blur(10px) saturate(120%);
 }
 #port::after {
 content: "";
-border: 1px solid #fff;
+border: 0 solid #fff;
 /*border-radius: 50%;*/
 box-shadow: 0 0px 4px rgba(0, 0, 0, 0.35), 0 0px 4px rgba(0, 0, 0, 0.35) inset;
 height: 7em;
-width: 17em;
-    background-color: rgba(0, 0, 0, 0.35);
+width: 30em;
+background-color: rgba(0, 0, 0, 0.35);
 position: absolute;
 top: 50%;
 left: 50%;
 z-index: 2;
 -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
 opacity: 0;
 }
 #port:hover::after {
@@ -278,13 +285,13 @@ top: 50%;
 left: 50%;
 z-index: 3;
 -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
 opacity: 0;
 text-align: center;
 text-transform: uppercase;
 text-shadow: 0 0 4rem rgba(0, 0, 0, 0.65);
 font: bold 1em sans-serif;
-    
+
 }
 
 
@@ -296,10 +303,12 @@ width: calc(50% - 1px);
 */
 
 /* ===============================
-   contact section
+contact section
 ==================================*/
 #contactsection{
 margin-top: 3%;
+margin-left: 2%;
+margin-right: 2%;
 }
 
 #contact-form h2{
@@ -397,7 +406,7 @@ text-align: center;
 
 
 /* ===============================
-   footer section
+footer section
 ==================================*/
 #footer{
 
@@ -412,26 +421,26 @@ width: 100%;
 #social i{
 
 font-size: 3em;
- padding: 2%;
+padding: 2%;
 margin: 0;
- display:inline;
- width: 100px;
- color: black;
+display:inline;
+width: 100px;
+color: black;
 } 
 
 #social i a {
 display: inline;
-    
+
 }
-    
+
 #social i:hover{
 color:#0BAA4E;
 
 }
-    
+
 /*
 #overlay2{
-        
+
 
 background-color:rgba(0,0,0,.75);
 text-align:center;
@@ -439,7 +448,7 @@ padding:45px 0 66px 0;
 opacity:0;
 -webkit-transition: opacity .25s ease;
 -moz-transition: opacity .25s ease;
-    
-    }    
 
-    */
+}    
+
+*/
