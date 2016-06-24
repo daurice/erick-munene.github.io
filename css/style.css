@@ -57,6 +57,7 @@ nav[role=navigation] li a {
   display: block;
   padding: 0.8em;
   font-size: 0.9em;
+   color:#26FF81;
 }
 .menu-link {
   height: 30px;
@@ -67,7 +68,7 @@ nav[role=navigation] li a {
 .bar2,
 .bar3 {
   margin-top: 3px;
-  background: #999;
+  background:#26FF81;
   width: 33px;
   height: 4px;
   position: absolute;
@@ -78,8 +79,10 @@ nav[role=navigation] li a {
 }
 .bar2 {
   margin-top: 13px;
+     
 }
 .bar3 {
+     
   margin-top: 23px;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -94,6 +97,7 @@ nav[role=navigation] li a {
 .brand h1 {
   margin: 0;
   font-size: 1.5em;
+    color:#26FF81;
 }
 @media screen and (min-width: 48.25em) {
   a.menu-link {

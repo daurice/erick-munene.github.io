@@ -89,6 +89,7 @@ font-size: 0.9em;
 }
 
 .bar1, .bar2, .bar3 {
+    
   margin-top: 3px;
   background: @ #26FF81;
   width: 33px;
@@ -157,12 +158,16 @@ transform: rotate(180deg);
 
 /*// Not interesting styles*/
 
-/*
 .container{
-  max-width: 72em;
+  max-width: 70em;
   margin: 0 auto;
 }
-*/
+
+@media (min-width:980px){
+    .container{
+        width: auto;
+    }
+}
 
 /*
 section{
