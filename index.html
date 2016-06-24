@@ -32,6 +32,8 @@
 <script type="text/javascript" src="/js/animatejquery/jquery.min.js"></script>
 
 <!-- animate on scroll links end -->
+
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -65,11 +67,11 @@
 </div>
 
 <div class="row expanded" id="nav">
-<div class="small-12 large-12 medium-12 columns">
-<section class="section section--menu" id="nav">
+   
+<div class="section section--menu" id="nav">
 
     <span class="link-copy"></span>
-    <nav class="menu menu--valentine">
+    <nav class="menu menu--valentine" >
         <ul class="menu__list">
             <li class="menu__item menu__item--current" data-hide-for="medium"><a href="#intro" class="menu__link">Welcome</a></li>
             <li class="menu__item"><a href="#aboutsection" class="menu__link">About</a></li>
@@ -77,12 +79,39 @@
             <li class="menu__item"><a href="http://erick-munene.github.io/blog/" class="menu__link">Blog</a></li>
             <li class="menu__item"><a href="#contactsection" class="menu__link">Contact</a></li>
         </ul>
-        <div class="button-nav">
+        <!-- <div class="button-nav"  data-responsive-toggle="main-menu" data-hide-for="medium">
             <a class="btn-open" href="#"></a>
-        </div>
+        </div> -->
     </nav>
-</section>
 </div>
+
+
+<div id="header-nav">
+    <div class="container">
+  <!-- H1 for SEO -->
+    <div class="brand">
+      <a href="index.html"><h1>Ghostlab</h1></a>
+    </div>
+    <!-- Small screen menu button -->
+        <a href="#menu" class="menu-link">
+      <span class="bar1"></span>
+      <span class="bar2"></span>
+      <span class="bar3"></span>
+     </a>
+    <!-- /Small screen menu button -->
+    
+    <!-- Menu Items -->
+    <nav id="menu" role="navigation">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    <!-- /Menu Items -->
+      </div>
+    </div>
 </div>
 
 
@@ -143,18 +172,16 @@ photography, my blog, my favorite quotes, and so much more.<br> So please sit ba
 <div class="row expanded" id="portfoliosection">
 
 
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=0"><span>My culture and personality have been greatly influenced </span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=10"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=20"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columnsy" id="port"><img id="overlay2" src="http://unsplash.it/620?image=30"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=40"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=50"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=60"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=70"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=80"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=90"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="http://unsplash.it/620?image=100"><span>Send</span></div>
-<div class="large-4 medium-6 small-12 columns " id="port"><img id="overlay2" src="http://unsplash.it/620?image=110"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="img/1.jpg"><span>My culture and personality have been greatly influenced </span></div>
+<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="img/2.jpg"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columns" id="port"><img id="overlay2" src="img/3.jpg"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columnsy" id="port"><img id="overlay2" src="img/4.jpg"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columnsy" id="port"><img id="overlay2" src="img/4.jpg"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columnsy" id="port"><img id="overlay2" src="img/4.jpg"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columnsy" id="port"><img id="overlay2" src="img/4.jpg"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columnsy" id="port"><img id="overlay2" src="img/4.jpg"><span>Send</span></div>
+<div class="large-4 medium-6 small-12 columnsy" id="port"><img id="overlay2" src="img/4.jpg"><span>Send</span></div>
+
 
 
 </div>
@@ -239,6 +266,12 @@ photography, my blog, my favorite quotes, and so much more.<br> So please sit ba
 <script src="js/navjs/clipboard.min.js"></script>
 
 <script src="js/animatejs/animate_on_scroll.js"></script>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'></script>
+
+        <script src="js/index.js"></script>
+
 <script>
 (function() {
 [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {

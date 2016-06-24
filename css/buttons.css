@@ -12,14 +12,21 @@
 	color: #fff;
 }
 
+@media (min-width:980px){
+    .button--wapasha{
+        min-width: 15em;
+	max-width: 20em;
+    }
+}
+
 /* Common button styles */
 .button {
 	float: left;
-	min-width: 20em;
-	max-width: 25em;
+	min-width: 15em;
+	max-width: 20em;
     
 	display: block;
-	margin: 1em;
+	margin: 12em;
 	padding: 1em 2em;
 	border: none;
 	background: none;

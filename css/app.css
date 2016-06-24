@@ -2,7 +2,9 @@ html{
 background-color: whitesmoke;
 }
 
-
+.cd-intro span{
+    color: #26FF81
+}
 #intro{
 
 background: url(../img/2.jpg) no-repeat center center fixed;
@@ -61,6 +63,27 @@ color: #34B484;
 background-color: black;
 width:100%;
 display: block;
+}
+
+@media (max-width: 980px){
+    #nav{
+        background-color: transparent;
+    }
+}
+
+/*
+@media (min-width: 980px){
+    .header-nav{
+        display: none;
+    }
+}
+*/
+
+@media (min-width: 980px){
+  .container{
+    display: none;
+      position: fixed;
+  }
 }
 
 .no-js .menu {

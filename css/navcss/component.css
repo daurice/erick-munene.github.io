@@ -1,4 +1,11 @@
 /* Common styles for all menus */
+
+@media (max-width: 980px){
+  .menu--valentine{
+    display: none;
+  }
+}
+
 .menu {
 	line-height: 1;
 	margin: 0 auto 3em;
@@ -2616,9 +2623,11 @@
 /* Media queries */
 
 /* Stack items for smaller screens */
+/*
 @media screen and (max-width:55em) {
 	.menu__list {
 		display: block;
 		margin: 0 auto;
 	}
 }
+*/
