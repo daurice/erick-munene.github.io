@@ -110,6 +110,14 @@ background:transparent;
 color: #26FF81;
 }
 
+@media (min-width:980px){
+    .button--wapasha{
+        min-width: 15em;
+	max-width: 20em;
+    }
+}
+
+
 .sticky {
 position: fixed;
 width: 100%;

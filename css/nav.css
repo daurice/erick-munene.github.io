@@ -164,16 +164,18 @@ transform: rotate(180deg);
 }
 */
 
+/*
 section{
   margin-top: 4em;
   padding: 1em;
-/*  color: #5c5c5c;*/
+  color: #5c5c5c;
   
   hr{
   border-bottom: none;
     color:  #26FF81;
   }
 }
+*/
 
 .info{
   text-align: center;

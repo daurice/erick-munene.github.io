@@ -12,12 +12,6 @@
 	color: #fff;
 }
 
-@media (min-width:980px){
-    .button--wapasha{
-        min-width: 15em;
-	max-width: 20em;
-    }
-}
 
 /* Common button styles */
 .button {
