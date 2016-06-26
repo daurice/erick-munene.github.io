@@ -123,7 +123,7 @@ text-align: center;
 /*    background-color: rgba(89, 250, 40, 0.28);*/
 background: url(../img/2.jpg) no-repeat center fixed;
 
-padding: 1%;
+padding: 0;
 }
 
 /*
@@ -200,7 +200,7 @@ text-align: left;
 
 
 /*  ==================================
-portfolio section
+            portfolio section
 =====================================*/
 #portfoliosection{
 margin-top: 10%;
@@ -303,7 +303,7 @@ width: calc(50% - 1px);
 */
 
 /* ===============================
-contact section
+       contact section
 ==================================*/
 #contactsection{
 margin-top: 3%;
@@ -406,7 +406,7 @@ text-align: center;
 
 
 /* ===============================
-footer section
+        footer section
 ==================================*/
 #footer{
 
