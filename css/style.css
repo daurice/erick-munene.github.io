@@ -20,6 +20,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
+/*
 #header-nav.hide-nav-bar {
   -webkit-transform: translate(0, -100%);
   -moz-transform: translate(0, -100%);
@@ -27,6 +28,7 @@ a:hover {
   transform: translate(0, -100%);
   -webkit-backface-visibility: hidden;
 }
+*/
 a.menu-link {
   float: right;
   display: block;
