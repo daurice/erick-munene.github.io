@@ -25,7 +25,13 @@
 <link rel="stylesheet" href="css/foundation.css">
 <link rel="stylesheet" href="css/app.css">
 
+<!-- animate on scroll links -->
 
+<link rel="stylesheet" href="/animate/3rdparty/animate/animate.css">
+<!-- <link rel="stylesheet" href="/animate/3rdparty/font-awesome/css/font-awesome.min.css"> -->
+<script type="text/javascript" src="/animate/3rdparty/jquery/jquery.min.js"></script>
+
+<!-- animate on scroll links end -->
 </head>
 
 <body>
@@ -101,12 +107,15 @@ photography, my blog, my favorite quotes, and so much more.<br> So please sit ba
 
 <div class="row expanded" id="aboutsection2">
 <div class="small-12 large-4 medium-4 columns">
+     <section class="animateOnScroll" data-animation-type="flipInY" data-timeout="0" data-offset-top="200">
+
+
 <i class="fa fa-code" aria-hidden="true"></i>
 
 <h2>Why I love design</h2>
 <p class="animated slideInDown">
     Design allows me to speak any language. Solving problems through type, space, and image is the most universal way to communicate. It's everything and anything.</p>
-
+</section>
 </div>
 <div class="small-12 large-4 medium-4 columns">
 <i class="fa fa-coffee" aria-hidden="true"></i>
@@ -123,6 +132,8 @@ photography, my blog, my favorite quotes, and so much more.<br> So please sit ba
 
 </div>
 </div>
+
+
 <div class="row expanded" id="portfoliosection">
 
 
@@ -221,7 +232,7 @@ photography, my blog, my favorite quotes, and so much more.<br> So please sit ba
 <script src="js/navjs/classie.js"></script>
 <script src="js/navjs/clipboard.min.js"></script>
 
-
+<script src="animate/animatejs/animate_on_scroll.js"></script>
 <script>
 (function() {
 [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
