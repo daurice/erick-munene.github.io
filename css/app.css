@@ -605,17 +605,17 @@ color:#0BAA4E;
 }
 
 /* Dribble class and animation */
-.dribbble
+.github
 {
   
   border: 1px solid #ea4c89;
 }
 
-#dribbble i{
+#github i{
  color: #4398DB; 
 }
 
-.dribbble:hover
+.github:hover
 {
   animation: dribbbleAnim 0.4s normal forwards linear;
   -webkit-animation: dribbbleAnim 0.4s normal forwards linear;
@@ -643,16 +643,16 @@ color:#0BAA4E;
   }
 }
 /* Yahoo class and animation */
-.yahooo
+.linkedin
 {
   
   border: 1px solid #720e9e;
 }
 
-#yahooo i{
+#linkedin i{
  color: #720e9e;   
 }
-.yahooo:hover
+.linkedin:hover
 {
   animation: yahoooAnim 0.4s normal forwards linear;
   -webkit-animation: yahoooAnim 0.4s normal forwards linear;
