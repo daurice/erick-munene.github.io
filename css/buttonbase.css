@@ -39,13 +39,13 @@
 	overflow: hidden;
 	pointer-events: none;
 }
-.container {
+/*.container {
 	margin: 0 auto;
 	text-align: center;
 	overflow: hidden;
-}
+}*/
 .content {
-	padding: 2em 1em 5em;
+/*	padding: 2em 1em 5em;*/
 	z-index: 1;
 	max-width: 1000px;
 	margin: 0 auto;
@@ -59,7 +59,8 @@
 	font-size: 0.85em;
 }
 .box {
-/*	padding: 3.34em 0;*/
+	padding:  0;
+    margin: 0 auto;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -71,7 +72,7 @@
 }
 
 
-/* Related demos */
+/* Related demos 
 .content--related {
 	text-align: center;
 	font-weight: 600;
