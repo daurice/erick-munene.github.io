@@ -3,7 +3,7 @@ background-color: whitesmoke;
 }
 
 .cd-intro span{
-    color: #26FF81
+    color: #26FF81;
 }
 #intro{
 
@@ -23,12 +23,16 @@ height: 100%;
 
 
 #bonyeza{
-    border: solid white 1.5px;
+    border: solid white 2px;
     padding: 10px;
     display: block;
+    color: #26FF81;
+    width: 20%;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
+
 
 
 /* main screen navigation */
