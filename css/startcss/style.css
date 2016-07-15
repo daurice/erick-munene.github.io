@@ -52,7 +52,7 @@ Primary style
 }
 @media only screen and (min-width: 768px) {
   .cd-intro {
-    margin: 5em auto;
+    margin: 1em auto;
 
   }
 }
@@ -66,6 +66,12 @@ Primary style
   font-size: 3rem;
   line-height: 1.1;
 }
+
+.cd-headline{
+    font-size: 5rem;
+}
+
+
 @media only screen and (min-width: 768px) {
   .cd-headline {
     font-size: 4.4rem;
@@ -77,7 +83,7 @@ Primary style
   .cd-headline {
     font-size: 2.4rem;
     font-weight: 300;
-    padding-top: 30%;
+    padding-top: 15%;
   }
 }
 

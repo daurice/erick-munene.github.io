@@ -5,6 +5,8 @@ background-color: whitesmoke;
 .cd-intro span{
     color: #26FF81;
 }
+
+
 #intro{
 
 background: url(../img/2.jpg) no-repeat center center fixed;
@@ -41,6 +43,12 @@ height: 100%;
 @media screen and (max-width:800px){
     #bonyeza{
         width: 40%;
+    }
+}
+
+@media screen and (max-width:500px){
+    #bonyeza{
+        width: 60%;
     }
 }
 
@@ -381,7 +389,7 @@ color: #34B484;
 #nav{
 background-color: black;
 width:100%;
-height: 75px;
+/*height: 75px;*/
     margin: 0 auto;
 display: inline-block;
 }
