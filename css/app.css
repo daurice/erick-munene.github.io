@@ -27,10 +27,21 @@ height: 100%;
     padding: 10px;
     display: block;
     color: #26FF81;
-    width: 20%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media screen and (min-width:800px){
+    #bonyeza{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:800px){
+    #bonyeza{
+        width: 40%;
+    }
 }
 
 
