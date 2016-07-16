@@ -48,6 +48,12 @@ height: 100%;
     -moz-transition: 1.2s;
 } 
 
+.animateOnScroll{
+      -webkit-transition: 1.2s;
+    -o-transition: 1.2s;
+    -moz-transition: 1.2s;
+    
+}
 /*
 @media screen and (min-width:800px){
     #bonyeza{
