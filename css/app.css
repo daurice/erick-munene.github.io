@@ -12,7 +12,7 @@ background-color: whitesmoke;
 background: url(../img/2.jpg) no-repeat center center fixed;
 background-size: cover;
 max-height: 2000px;
-height: 90%;
+height: 100%;
 color: azure;
 
 }
@@ -25,24 +25,42 @@ height: 100%;
 
 
 #bonyeza{
-    border: solid white 2px;
+    border: solid white 4px;
     padding: 10px;
     display: block;
     color: #26FF81;
     text-align: center;
+    margin-top: -60px;
     margin-right: auto;
     margin-left: auto;
+    
 }
 
+/*
 @media screen and (min-width:800px){
     #bonyeza{
         width: 20%;
     }
 }
-
+*/
+@media only screen and (min-width: 768px) {
+    #bonyeza{
+        width: 20%;
+/*          margin: 20 auto;*/
+        padding:1%; 
+    }
+}
 @media screen and (max-width:800px){
     #bonyeza{
         width: 40%;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    #bonyeza{
+        width: 30%;
+        margin-top: -10%;
     }
 }
 
@@ -52,7 +70,16 @@ height: 100%;
     }
 }
 
+/*
+@media only screen and (min-width: 768px) {
+  #bonyeza {
+      
+      margin-top: -20% auto;
+  
+}
 
+}
+*/
 
 /* main screen navigation */
 
@@ -290,12 +317,14 @@ nav[role=navigation] li a {
 }
 .brand {
   float: left;
-  margin-left: 1em;
+  margin-left: 2em;
+    
   padding: 1em;
 }
 .brand h1 {
   margin: 0;
   font-size: 1.5em;
+    font-weight: 900;
     color:#26FF81;
 }
 @media screen and (min-width: 48.25em) {
@@ -304,7 +333,10 @@ nav[role=navigation] li a {
   }
   .js nav[role=navigation] {
     max-height: none;
+      margin-right: 40px;
   }
+    
+    
   nav[role=navigation] ul {
     margin: 0 0 0 -0.25em;
     border: 0;
@@ -317,6 +349,10 @@ nav[role=navigation] li a {
   nav[role=navigation] li a {
     border: 0;
   }
+}
+
+#menu{
+    max-width: 100%;
 }
 .container {
 
@@ -343,6 +379,8 @@ section hr {
      width: 100%;
     }
 }
+
+
 
 /*styling open close button*/
 .button-nav {
@@ -424,9 +462,7 @@ display: none;
 }
 }
 
-.brand{
-     
-}
+
 
 /* Wapasha */
 
@@ -496,12 +532,13 @@ opacity:1;
 */
 
 #box2{
-  background:rgba(0,0,0,.75);
+  background:rgba(0,0,0,5);
     margin-top: -7px;
+    
 }
 
 #overlay{  
-background:rgba(0,0,0,.75);
+/*background:rgba(0,0,0,.75);*/
 text-align:center;
     height: 100%;
     width: 100%;
@@ -516,11 +553,24 @@ opacity:1;}
 #box1:hover #overlay {
 opacity:1;}
 
-#plus       {  font-family:Helvetica;
+#plus       {  
+    font-family:Helvetica;
 font-weight:900;
 color:rgba(255,255,255,.85);
-font-size:1.2em;}
+    
+font-size:20px;}
 
+/*
+@media only screen and (max-width: 768px) {
+  #plus {
+    font-size: 3.0rem;
+    font-weight:900;
+    padding-top: 15%;
+      
+  }
+    
+}
+*/
 
 
 
@@ -546,14 +596,15 @@ color:ghostwhite;
 font-size: 2.2em;
 font-weight: 500;
 color:ghostwhite;
-text-align: left;
+text-align: center;
+    font-weight: 900;
 }
 
 #aboutsection2 p{
 padding: 1%;
 font-size: 1.1em;
 color:ghostwhite;
-text-align: left;
+text-align: center;
 }
 
 
