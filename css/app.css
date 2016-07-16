@@ -29,12 +29,24 @@ height: 100%;
     padding: 10px;
     display: block;
     color: #26FF81;
+    background: rgba(0,0,0,0.3);
     text-align: center;
     margin-top: -60px;
     margin-right: auto;
     margin-left: auto;
+    font-weight: 900;
+        
     
 }
+
+#bonyeza:hover{
+    background-color: #26FF81;
+    color: black;
+    font-weight: 900;
+   -webkit-transition: 1.2s;
+    -o-transition: 1.2s;
+    -moz-transition: 1.2s;
+} 
 
 /*
 @media screen and (min-width:800px){
