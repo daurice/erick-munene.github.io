@@ -881,23 +881,31 @@ height: auto;
   margin-left:35%;
 }
 #social li{
+  margin-top: 25px;
   list-style: none;
-  /*margin-right: 30px;*/
-background: black;
-border-radius: 0%;
+  margin-right: 30px;
+
+width:10%;
+
   float: left;
-  letter-spacing: 20px;
+ 
  /* padding-right: 5%;*/
   font-size: 3rem;
 }
 
 #social i{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  background: black;
   color: #fff;
 text-align: center;
+margin-left:30%;
 }
 
 #social i:hover{
-  
+
 color:#0BAA4E;
 
 }
