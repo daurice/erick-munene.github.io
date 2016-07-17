@@ -850,7 +850,21 @@ margin-left: 35%;
 /* ===============================
         footer section
 ==================================*/
-    
+    .svg {
+  width: 100%;
+  height: 560px;
+  background: #0BAA4E ;
+  -webkit-clip-path: ellipse(58% 20% at 58% 0%);
+clip-path: ellipse(58% 20% at 58% 0%);
+}
+/* Center the demo *//*
+
+html, body { height: 100%; }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  */
     
     
 #footer{
@@ -861,231 +875,43 @@ width: 100%;
 height: auto;
 
 }  
-#social{
-        padding: 2%;
-    }
 
+#social{
+  margin-right:auto;
+  margin-left:35%;
+}
+#social li{
+  list-style: none;
+  /*margin-right: 30px;*/
+background: black;
+border-radius: 0%;
+  float: left;
+  letter-spacing: 20px;
+ /* padding-right: 5%;*/
+  font-size: 3rem;
+}
 
 #social i{
-
-font-size: 1em;
-padding: 2%;
-margin: 0;
-display:inline;
-width: 100%;
-color: black;
-} 
-
-#social i a {
-display: inline;
-
+  color: #fff;
+text-align: center;
 }
 
 #social i:hover{
+  
 color:#0BAA4E;
 
 }
 
 /* General rule */
-.button-big
+/*.button-big
 {
   font-size: 2.5em;
   width: 4em;
   text-align:center;
   padding: 0.2em 0em 0.2em 0em;
-}
+}*/
 
-/* Twitter class and animation */
-.twitter
-{
-  
-  border: 1px solid #0096ff;
-}
-#twitter i{
-    color: #0096ff;
-}
-
-.twitter:hover
-{
-  animation: twitterAnim 0.4s normal forwards linear;
-  -webkit-animation: twitterAnim 0.4s normal forwards linear;
-}
-@keyframes twitterAnim {
-  50% {
-    background-color:#3B5998; 
-  }
-  100% {
-/*    background-color: #3B5998;*/
-    border: 1px solid #0096ff;
-    color: #fff;
-  }
-}
-
-@-webkit-keyframes twitterAnim {
-  50% {
-/*    background-color: #3B5998;*/
-  }
-  100% {
-    background-color: #3B5998;
-    border: 1px solid #0096ff;
-    color: #fff;
-  }
-}
-
-/* Facebook class and animation */
-.facebook
-{
- 
-  border: 1px solid #3B5998;
-}
-
-#facebook i{
-   color: #3B5998;  
-    
-}
-
-.facebook:hover
-{
-  animation: facebookAnim 0.4s normal forwards linear;
-  -webkit-animation: facebookAnim 0.4s normal forwards linear;
-}
-
-@keyframes facebookAnim {
-  50% {
-    background-color: #0096ff;
-  }
-  100% {
-    background-color: 
-    border: 1px solid #0096ff;
-    color: #fff;
-  }
-}
-
-@-webkit-keyframes facebookAnim {
-  50% {
-    background-color: #0096ff;
-  }
-  100% {
-/*    background-color: #0096ff;*/
-    border: 1px solid #3B5998;
-    color: #fff;
-  }
-}
-
-/* Google class and animation */
-.gplus
-{
-  
-  border: 1px solid #dd4b39;
-}
-#gplus i{
-    color: #dd4b39;
-    
-}
-
-.gplus:hover
-{
-  animation: gplusAnim 0.4s normal forwards linear;
-  -webkit-animation: gplusAnim 0.4s normal forwards linear;
-}
-
-@keyframes gplusAnim {
-  50% {
-    background-color: #dd4b39;
-  }
-  100% {
-/*    background-color: #dd4b39;*/
-    border: 1px solid #dd4b39;
-    color: #fff;
-  }
- }
-  
-@-webkit-keyframes gplusAnim {
-  50% {
-    background-color: #dd4b39;
-  }
-  100% {
-/*    background-color: #dd4b39;*/
-    border: 1px solid #dd4b39;
-    color: #fff;
-  }
-}
-
-/* Dribble class and animation */
-.github
-{
-  
-  border: 1px solid #ea4c89;
-}
-
-#github i{
- color: #4398DB; 
-}
-
-.github:hover
-{
-  animation: dribbbleAnim 0.4s normal forwards linear;
-  -webkit-animation: dribbbleAnim 0.4s normal forwards linear;
-}
-
-@-webkit-keyframes dribbbleAnim {
-  50% {
-    background-color: #ea4c89;
-  }
-  100% {
-/*    background-color: #ea4c89;*/
-    border: 1px solid #ea4c89;
-    color: #fff;
-  }
-}
-  
-@keyframes dribbbleAnim {
-  50% {
-    background-color: #ea4c89;
-  }
-  100% {
-/*    background-color: #ea4c89;*/
-    border: 1px solid #ea4c89;
-    color: #fff;
-  }
-}
-/* Yahoo class and animation */
-.linkedin
-{
-  
-  border: 1px solid #720e9e;
-}
-
-#linkedin i{
- color: #720e9e;   
-}
-.linkedin:hover
-{
-  animation: yahoooAnim 0.4s normal forwards linear;
-  -webkit-animation: yahoooAnim 0.4s normal forwards linear;
-}
-
-@-webkit-keyframes yahoooAnim {
-  50% {
-    background-color: #720e9e;
-  }
-  100% {
-/*    background-color: #720e9e;*/
-    border: 1px solid #720e9e;
-    color: #fff;
-  }
-}
-@keyframes yahoooAnim {
-  50% {
-    background-color: #720e9e;
-  }
-  100% {
-/*    background-color: #720e9e;*/
-    border: 1px solid #720e9e;
-    color: #fff;
-  }
-
-#aboutsection {
+/*#aboutsection {
     background-color: black;
     
-}
+}*/
