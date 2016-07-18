@@ -22,7 +22,13 @@ height: 100%;
     
   }
 }
-
+@media (min-width:768px){
+  #intro{
+height: 50%;
+    
+  }
+  
+}
 
 #bonyeza{
     border: solid white 4px;
@@ -920,16 +926,4 @@ background: #fff;
 
 }
 
-/* General rule */
-/*.button-big
-{
-  font-size: 2.5em;
-  width: 4em;
-  text-align:center;
-  padding: 0.2em 0em 0.2em 0em;
-}*/
 
-/*#aboutsection {
-    background-color: black;
-    
-}*/
