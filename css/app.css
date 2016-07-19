@@ -879,8 +879,9 @@ height: auto;
 }  
 
 #footer h3{
+  font-size: 1rem;
   color: #fff;
-  margin-top: 20%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -906,7 +907,7 @@ width:10%;
   height: 70px;
   line-height: 70px;
   border-radius: 50%;
-  background: black;
+  background: #0BAA4E;
   color: #fff;
 text-align: center;
 margin-left:30%;
@@ -914,7 +915,8 @@ margin-left:30%;
 
 #social i:hover{
 
-color:#0BAA4E;
+color:black;
+background: #fff;
 
 }
 
