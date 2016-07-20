@@ -45,15 +45,17 @@
 <span class="erick">Erick Munene </span><br>
 
 <span class="cd-words-wrapper">
-<b class="is-visible">free thinker.</b>
-<b>musician</b>
-<b>front-end  developer</b>
+<b class="is-visible">front-end  developer</b>
+<b>free thinker</b>
+<b>free thinker</b>
 
 </span>
 </h1>
 </section>
 
 <a href="#aboutsection" id="bonyeza">Get to Know Me</a>
+
+<p class="bonyeza"><a href="#about" class="chini "><b><i class="fa fa-angle-down"></i></b></a></p>
 
 </div>
 
@@ -373,22 +375,19 @@ $(window).scroll(function() {
 
 <script>
 $(function() {
-$('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-            $('html, body').animate({
-                scrollTop: target.offset().top
-            }, 1500);
-            return false;
-        }
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body, div').animate({
+          scrollTop: target.offset().top
+        }, 1500);
+        return false;
+      }
     }
+  });
 });
-$('#galleryModal').on('show.bs.modal', function(e) {
-    $('#galleryImage').attr("src", $(e.relatedTarget).data("src"));
-})
-})(jQuery);
 </script>
 
 
