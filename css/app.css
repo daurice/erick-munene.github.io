@@ -46,6 +46,10 @@ height: 100%;
     display: none;
 }
 }
+
+.chini i{
+  color: #26FF81;
+}
 .chini {
 
     position: absolute;
@@ -58,13 +62,15 @@ height: 100%;
     height: 50px;
     background: black;
     color: #26FF81;
-    font-size: 25px;
+    font-size: 30px;
     -webkit-border-radius: 75%;
     -moz-border-radius: 75%;
     border-radius: 75%;
     border: 2px solid #FCFCFC;
 }
-
+.chini i:hover{
+  color: black;
+}
 .chini:hover{
 
   background: #26FF81;
@@ -625,6 +631,11 @@ font-size:20px;}
 
 
 
+/*  ==================================
+            About section
+=====================================*/
+
+
 #aboutsection2{
 
 /*    background-color:rgba(38, 255, 129, 0.36);*/
@@ -638,7 +649,7 @@ padding: 0 auto;
 #aboutsection2 i{
 font-size: 4em;
 padding: 10%;
-/*   margin-left: 20em auto;*/
+   margin-left: 37%;
 color:ghostwhite;
 }
 
