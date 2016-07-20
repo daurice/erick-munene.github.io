@@ -22,13 +22,9 @@ height: 100%;
     
   }
 }
-@media (min-width:768px){
-  #intro{
-height: 50%;
-    
-  }
+
   
-}
+
 
 #bonyeza{
     border: solid white 4px;
@@ -740,6 +736,8 @@ width: calc(50% - 1px);
 /* ===============================
        contact section
 ==================================*/
+
+
 #contactsection{
 margin-top: 3%;
 margin-left: 2%;
@@ -856,7 +854,22 @@ margin-left: 35%;
 /* ===============================
         footer section
 ==================================*/
-    #curve{
+
+
+
+.footer{
+
+  background-color: black;
+  color: #FCFCFC;
+  text-align: center;
+  font-size: 10px;
+}
+
+.footer p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  #curve{
 
     margin-bottom: -31px;
    /* margin-top: 158px;*/
