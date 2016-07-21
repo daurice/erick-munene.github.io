@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Erick Munene</title>
 
-<link rel="stylesheet" href="css/animate.css">
+<!--<link rel="stylesheet" href="css/animate.css">-->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 <link rel="stylesheet" href="css/startcss/reset.css">
@@ -70,7 +70,7 @@
 =================================================================
 -->
 
-<div class="row expanded" id="nav">
+<div class="row expanded" id="">
    
 <div class="section section--menu large-12 columns" id="nav">
 
@@ -130,6 +130,7 @@
 
 <div id="overlay">
     <section class="animateOnScroll"data-animation-type="fadeInDown" data-timeout="0" data-offset-top="200">
+        <br><br><br>
     <span id="plus"><h2>Am so happy you're visiting</h2>
 <p>I designed this site so you can get to know me on a personal<br> 
 level. My career as a UX Designer, my portfolio, my personal<br> 
@@ -184,15 +185,20 @@ my blog<br> So please sit back and enjoy!</p></span>
     
     
     
-<div class="row expanded large-up-3 medium-up-2 small-up-1" id="portfoliosection">
+<div class="row expanded " id="portfoliosection">
+    <br><br><br><br><br><br>
+    <h1>PORTFOLIO SECTION</h1>
+    
+    <div class="large-up-3 medium-up-2 small-up-1 columns" id="portfolio">
 
 
 <div class="columns" id="port"><img id="overlay2" src="img/Screenshot3.png"><span>Fashion design website that shows lates trends in clothing </span></div>
 <div class="columns" id="port"><img id="overlay2" src="img/Screenshot.png"><span>my personal website</span></div>
 <div class="columns" id="port"><img id="overlay2" src="img/Screenshot2.png"><span>Fast food ordering website that aids in ordering </span></div>
+<div class="columns" id="port"><img id="overlay2" src="img/Screenshot4.png"><span>fashion website that allows one to shop</span></div>
 <div class="columns" id="port"><img id="overlay2" src="img/LightUp.jpg"><span>A mobile up that uses the Camera flash as flashlight</span></div>
 
-
+    </div>
 
 
 </div>
@@ -371,19 +377,22 @@ $(window).scroll(function() {
 
 <script>
 $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body, div').animate({
-          scrollTop: target.offset().top
-        }, 1500);
-        return false;
-      }
-    }
-  });
-});
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(-1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1500);
+                return false;
+            }
+        }
+    });
+    $('#galleryModal').on('show.bs.modal', function(e) {
+        $('#galleryImage').attr("src", $(e.relatedTarget).data("src"));
+    })
+})(jQuery);
 </script>
 
 
