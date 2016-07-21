@@ -1,3 +1,7 @@
+
+
+
+
 $(document).ready(function() {
 $('html').on('DOMMouseScroll mousewheel', function (e) {
   if(e.originalEvent.detail > 0 || e.originalEvent.wheelDelta < 0) { //alternative options for wheelData: wheelDeltaX & wheelDeltaY
