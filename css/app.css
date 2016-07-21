@@ -568,6 +568,7 @@ font-size: 1.5em;
 margin-top: 4.5%;
 font-size: 3em;
 text-align: center;
+    font-family: 'IM Fell Great Primer', serif; 
 }
 
 #aboutsection p{
@@ -600,6 +601,7 @@ opacity:1;
 #overlay{  
 /*background:rgba(0,0,0,.75);*/
 text-align:center;
+    
     height: 100%;
     width: 100%;
 padding:45px 0 66px 0;
@@ -614,7 +616,7 @@ opacity:1;}
 opacity:1;}
 
 #plus       {  
-    font-family:Helvetica;
+    font-family: 'IM Fell Great Primer', serif;
 font-weight:900;
 color:rgba(255,255,255,.85);
     
@@ -738,9 +740,11 @@ text-align: center;
 }
 
 #portfoliosection h1{
-font-family:sans-serif;
+font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
     text-align: center;
     color:#26FF81;
+    
 }
 #port, port::before, port::after,
 img,
