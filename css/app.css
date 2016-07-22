@@ -804,7 +804,7 @@ content: "";
 border: 0 solid #fff;
 /*border-radius: 50%;*/
 box-shadow: 0 0px 4px rgba(0, 0, 0, 0.35), 0 0px 4px rgba(0, 0, 0, 0.35) inset;
-height: 7em;
+height: 13em;
 width: 30em;
 background-color: rgba(0, 0, 0, 0.35);
 position: absolute;
@@ -1053,3 +1053,17 @@ background: #fff;
 }
 
 
+/*  Buttons */
+
+.radius{
+  background-color: black;
+  color:#26FF81 ;
+  border-radius: 2px;
+
+}
+
+.radius:hover{
+  background-color: #0BAA4E;
+  color: #ffffff;
+
+}
