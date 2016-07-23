@@ -1068,3 +1068,35 @@ background: #fff;
   color: #ffffff;
 
 }
+
+
+/* ===============================
+        thanks section
+==================================*/
+.bod{
+  background: black;
+}
+
+#top{
+
+
+}
+
+.thanks{
+  background: #fff;
+    text-align: center;
+    margin-bottom: -25px;
+    margin-top: -1px;
+}
+
+#curveUp {
+    margin-bottom: -6px;
+    margin-top: 158px;
+    fill: #fff;
+}
+
+@media screen and (max-width:1000px) {
+  #curveUp {
+        margin-top: 80px
+    }
+  }
