@@ -1068,13 +1068,28 @@ background: #fff;
   color: #ffffff;
 
 }
+#success{
+  border-radius: 0.1em;
+  box-shadow: 5px 5px 5px #888888;
+
+}
+
+#success:hover{
+border-radius: 0.4em;
+  background: black;
+  color: #26FF81;
+  -webkit-transition: 1s;
+    -o-transition: 1s;
+    -moz-transition: 1s;
+
+}
 
 
 /* ===============================
         thanks section
 ==================================*/
 .bod{
-  background: black;
+  background: #0BAA4E;
 }
 
 #top{
@@ -1083,6 +1098,7 @@ background: #fff;
 }
 
 .thanks{
+  font-size: 2em;
   background: #fff;
     text-align: center;
     margin-bottom: -25px;
