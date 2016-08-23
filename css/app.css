@@ -725,7 +725,26 @@ color:ghostwhite;
 text-align: center;
 }
 
+/*  ==================================
+            Skills section
+=====================================*/
+#skills ul{
+ text-align: center;
+  margin-left:37%;
 
+}
+#skills li{
+  margin-top: 20px;
+  list-style: none;
+  /*margin-right: 2%;*/
+color: #E6E6E6;
+width:10%;
+
+  float: left;
+ 
+ /* padding-right: 5%;*/
+  font-size: 3.5rem;
+}
 
 
 /*  ==================================
