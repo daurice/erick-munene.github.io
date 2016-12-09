@@ -878,7 +878,9 @@ width: calc(50% - 1px);
 /* ===============================
        contact section
 ==================================*/
-
+.zero{
+    opacity: 0;
+}
 
 #contactsection{
 margin-top: 3%;
