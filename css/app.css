@@ -888,11 +888,20 @@ margin-right: 2%;
 
 #contact-form h2{
 color:ghostwhite;
+  
 
 }
+
+#section4{
+   text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
 #contact, label, input[name="submit"] {
 /*position: relative;*/
 }
+
 
 label > span, input, textarea, button {
 box-sizing: border-box;
@@ -929,6 +938,8 @@ width: 30%;
 background: black;
 color: #ffffff;
 border-radius: 0.3em;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 21px;
    
 }
 
@@ -979,7 +990,7 @@ display: inline-block;
 width: 100%;
 }
 #contact-form h2 {
-/*margin-left: 17.2661%;*/
+margin-left: 17.2661%;
 text-align: center;
 }
     
