@@ -1155,6 +1155,7 @@ background: #fff;
   width: 200px;
   border-radius: 0.1em;
   box-shadow: 5px 5px 5px #888888;
+    font-family: 'Kaushan Script', cursive;
 
 }
 
@@ -1172,6 +1173,7 @@ border-radius: 0.4em;
 /* ===============================
         thanks section
 ==================================*/
+
 .bod{
   background: #0BAA4E;
 }
@@ -1182,7 +1184,7 @@ border-radius: 0.4em;
 }
 
 .thanks{
-  font-family: 'Lobster';
+ font-family: 'Kaushan Script', cursive;
   font-size: 1.5em;
   background: #F5F5F5;
     text-align: center;
