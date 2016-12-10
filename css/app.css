@@ -195,6 +195,7 @@ height: 100%;
 .menu--valentine .menu__item {
 	position: relative;
 	margin: 0 1em;
+    
 }
 
 .menu--valentine .menu__link {
@@ -387,6 +388,7 @@ nav[role=navigation] li a {
     font-weight: 900;
     color:#26FF81;
 }
+
 @media screen and (min-width: 48.25em) {
   a.menu-link {
     display: none;
@@ -453,7 +455,7 @@ z-index:100;
 font-size:30px;
 
 @media only screen and (min-width: 40.063em) { 
-}
+    }
 }
 
 
@@ -518,9 +520,11 @@ display: none;
 display: block;
 }
 
+/*
 .no-js .menu {
 display: none;
 }
+*/
 }
 
 
@@ -569,7 +573,7 @@ font-size: 1.5em;
 margin-top: 4.5%;
 font-size: 3em;
 text-align: center;
-    font-family: 'IM Fell Great Primer', serif; 
+   font-family: 'Kaushan Script', cursive; 
 }
 
 #aboutsection p{
@@ -720,7 +724,7 @@ color:ghostwhite;
 
 #aboutsection2 h2{
 
-font-size: 2.2em;
+font-size: 2em;
 font-weight: 500;
 color:ghostwhite;
 text-align: center;
@@ -735,6 +739,8 @@ color:ghostwhite;
 text-align: center;
     font-family: 'Kaushan Script', cursive;
 }
+
+
 
 /*  ==================================
             Skills section
@@ -754,7 +760,14 @@ width:10%;
   float: left;
  
  /* padding-right: 5%;*/
-  font-size: 3.5rem;
+  font-size: 50px;
+}
+
+#skills li:hover{
+    color: #26FF81;
+    transition-delay: 0.4s;
+    -webkit-transition: all 0.4s;
+    
 }
 
 
@@ -1041,6 +1054,12 @@ label > span {
     font-size: 1.2em;
 }
 
+@media screen and (min-width: 30em) {
+#contact-form h2 {
+margin-left: 26.3736%;
+font-size: 2em;
+line-height: 1.5;
+}
 
 /* ===============================
         footer section
