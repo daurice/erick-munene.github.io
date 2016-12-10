@@ -106,4 +106,21 @@ $(document).foundation()
 
 
 
+//  ============= CONTACT FORM VALIDATION  ================
+
+
+(function() {
+    var $contact = $('#contact');
+    // VALIDATE FORM
+    $contact.validate();
+    $contact.submit(function(e) {
+        if ($(this).valid())
+             {...}
+       return false;
+     });
+})();
+
+
+
+
 
