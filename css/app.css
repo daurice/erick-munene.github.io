@@ -1093,13 +1093,12 @@ margin-left: 26.3736%;
 font-size: 2em;
 line-height: 1.5;
 }
-
+}
 /* ===============================
         footer section
 ==================================*/
-
-
-
+  
+   
 .footer{
 
   background-color: black;
@@ -1137,8 +1136,11 @@ background:rgba(0, 2, 2, 6);
 background-size:contain;
 width: 100%;
 height: auto;
+    
 
 }  
+    
+
 
 #footer h3{
   font-size: 1rem;
