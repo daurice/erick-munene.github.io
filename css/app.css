@@ -14,6 +14,7 @@ background-size: cover;
 max-height: 2000px;
 height: 100%;
 color: azure;
+    
 
 }
 @media (min-width: 980px){
@@ -83,7 +84,7 @@ height: 100%;
 }
 
 #bonyeza:hover{
-    background-color: #26FF81;
+   background: rgba(38,255,129,0.3);
     color: black;
     font-weight: 900;
    -webkit-transition: 1.2s;

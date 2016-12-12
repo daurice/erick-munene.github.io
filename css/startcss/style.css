@@ -47,6 +47,7 @@ Primary style
   width: 100%;
 /*  max-width: 768px;*/
   text-align: center;
+    
 }
 
 .cd-intro {
@@ -79,6 +80,7 @@ Primary style
 .erick{
     font-size: 3em;
     font-weight:900;
+    font-family: 'Kaushan Script', cursive;
 }
 
 
@@ -94,6 +96,7 @@ Primary style
     .cd-words-wrapper{
         font-size: 1.4em;
         text-align: left;
+        font-family: 'Kaushan Script', cursive;
     }
 }
 
