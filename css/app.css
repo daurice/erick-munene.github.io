@@ -1228,13 +1228,14 @@ body {
 }  */
     
     
-#footer{
+.footer{
 
 background:rgba(0, 2, 2, 6); 
 background-size:contain;
 width: 100%;
 height: auto;
-    
+    text-align: center;
+    position: relative; 
 
 }  
     
@@ -1248,10 +1249,12 @@ height: auto;
 }
 
 #social{
+   
  text-align: center;
     margin: 0;
 /*  margin-left:30%;*/
 }
+
 #social li{
   margin-top: 20px;
   list-style: none;
