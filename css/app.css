@@ -714,15 +714,17 @@ background:#0BAA4E;
 background-size: cover;
 margin: 0 auto;
 padding: 0 auto;
+    text-align: center;
     
     
 
 }
 
 #aboutsection2 i{
+  position:relative;
 font-size: 4em;
 padding: 10%;
-   margin-left: 37%;
+/*   margin-left: 37%;*/
 color:ghostwhite;
     
 }
@@ -750,11 +752,7 @@ text-align: center;
 /*  ==================================
             Skills section
 =====================================*/
-#skills ul{
- text-align: center;
-  margin-left:25%;
 
-}
 #skills li{
   margin-top: 20px;
   list-style: none;
