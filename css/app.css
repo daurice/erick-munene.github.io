@@ -953,7 +953,7 @@ color: azure;
 	#startStopBtn.running{
 		background-color:#FF3030;
 		border-color:#FF6060;
-		color:#26FF81;
+		color:#fff;
 	}
 	#startStopBtn:before{
 		content:"Start";
