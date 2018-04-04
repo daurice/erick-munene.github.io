@@ -951,9 +951,9 @@ color: azure;
 		box-shadow: 0 0 2em rgba(0,0,0,0.1), inset 0 0 1em rgba(0,0,0,0.1);
 	}
 	#startStopBtn.running{
-		background-color:#FF3030;
-		border-color:#FF6060;
-		color:#fff;
+		background-color:#26FF81;
+		border-color:#FFF;
+		color:#000;
 	}
 	#startStopBtn:before{
 		content:"Start";
